@@ -19,10 +19,19 @@
 
     
     
+    <bean id="helloHelper" class="com.mycompany.equa_spring1.HelloHelper">
+        <property name="message" ref="helloWorld" />
+    </bean>
+    
+    
     <bean id="helloWorld" class="com.mycompany.equa_spring1.HelloWorld"/>
+    <bean id="helloWorldMock" class="com.mycompany.equa_spring1.HelloWolrdMockImpl"/>
     
     
-     <context:annotation-config />   
+    
+    
+    
+    <context:annotation-config />   
     <context:component-scan base-package="com.mycompany.equa_spring1" />
 
     <tx:annotation-driven />

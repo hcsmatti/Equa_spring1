@@ -56,6 +56,14 @@
             <version>${org.springframework.version}</version>
             <scope>test</scope>            
         </dependency>
+        
+        <!-- JavaConfig need this library -->
+	<dependency>
+		<groupId>cglib</groupId>
+		<artifactId>cglib</artifactId>
+		<version>2.2.2</version>
+	</dependency>
+        
             
     </dependencies>
 </project>

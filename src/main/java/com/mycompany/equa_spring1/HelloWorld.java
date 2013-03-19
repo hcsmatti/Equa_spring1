@@ -3,20 +3,20 @@ package com.mycompany.equa_spring1;
 
 public class HelloWorld implements Hello {
 
-    private String nazdar = "Hello World";
+    private String message = "Hello World regular";
     
     
     
     public void pozdrav(){
-        System.out.println(nazdar);
+        System.out.println(message);
     }
 
-    public String getNazdar() {
-        return nazdar;
+    public String getMessage() {
+        return message;
     }
 
-    public void setNazdar(String nazdar) {
-        this.nazdar = nazdar;
+    public void setMessage(String nazdar) {
+        this.message = nazdar;
     }
     
     
