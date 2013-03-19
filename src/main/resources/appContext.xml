@@ -20,12 +20,12 @@
     
     
     <bean id="helloHelper" class="com.mycompany.equa_spring1.HelloHelper">
-        <property name="message" ref="helloWorld" />
+        <property name="hello" ref="helloWorldMock" />
     </bean>
     
     
     <bean id="helloWorld" class="com.mycompany.equa_spring1.HelloWorld"/>
-    <bean id="helloWorldMock" class="com.mycompany.equa_spring1.HelloWolrdMockImpl"/>
+    <bean id="helloWorldMock" class="com.mycompany.equa_spring1.HelloWolrdMock"/>
     
     
     

@@ -8,6 +8,6 @@ public interface Hello {
    
     
     
-    public void pozdrav();
+    public void sayHello();
     
 }

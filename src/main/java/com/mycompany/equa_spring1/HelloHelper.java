@@ -8,18 +8,20 @@ package com.mycompany.equa_spring1;
  *
  * @author User
  */
-public class HelloHelper implements Hello {
+public class HelloHelper {
 
-    private String message;
+    private Hello hello;
 
-   
+    
+    public void sayIt(){
+        hello.sayHello();
+    }
 
-    public void setMessage(String message) {
-        this.message = message;
+   public void setHello(Hello hello) {
+        this.hello = hello;
     }
     
-    public void pozdrav() {
-        System.out.print(message);
-    }
+   
+
     
 }

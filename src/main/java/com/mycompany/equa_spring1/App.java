@@ -12,9 +12,9 @@ public class App
     {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("appContext.xml");
         
-        String hi = (String) context.getBean("helloHelper");
+        HelloHelper hi = (HelloHelper) context.getBean("helloHelper");
         
-        System.out.print(hi);
+        hi.sayIt();
         
         Nazdar nazdar = (Nazdar) context.getBean("noNazdar");
         
